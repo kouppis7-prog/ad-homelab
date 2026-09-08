@@ -60,7 +60,7 @@ Built in VirtualBox on an isolated network. All configuration is documented, and
 │   ├── New-LabUsers.ps1                Bulk provisioning from CSV
 │   ├── Disable-LabUser.ps1             Offboarding
 │   └── lab-users.csv                   Sample source data
-└── images/                             Screenshots and diagrams
+└── screenshots/                             Screenshots
 ```
 
 ## OU structure
