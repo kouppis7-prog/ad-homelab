@@ -1,0 +1,21 @@
+FirstName,LastName,Department,Title,Manager
+Andreas,Georgiou,IT,IT Director,
+Maria,Constantinou,Finance,Finance Director,
+Nikos,Papadopoulos,HR,HR Director,
+Elena,Christodoulou,Sales,Sales Director,
+Petros,Ioannou,IT,Systems Administrator,Andreas Georgiou
+Sophia,Michael,IT,Network Engineer,Andreas Georgiou
+Christos,Antoniou,IT,Service Desk Analyst,Andreas Georgiou
+Anna,Kyriacou,IT,Service Desk Analyst,Andreas Georgiou
+Dimitris,Savvas,Finance,Financial Controller,Maria Constantinou
+Katerina,Loizou,Finance,Accountant,Maria Constantinou
+Marios,Charalambous,Finance,Accounts Payable Clerk,Maria Constantinou
+Christina,Pavlou,Finance,Payroll Specialist,Maria Constantinou
+Giorgos,Stavrou,HR,HR Business Partner,Nikos Papadopoulos
+Eleni,Demetriou,HR,Recruitment Coordinator,Nikos Papadopoulos
+Panayiotis,Nicolaou,HR,HR Administrator,Nikos Papadopoulos
+Andri,Hadjigeorgiou,Sales,Account Manager,Elena Christodoulou
+Stelios,Vasiliou,Sales,Account Manager,Elena Christodoulou
+Maria,Andreou,Sales,Sales Development Rep,Elena Christodoulou
+Kyriakos,Themistocleous,Sales,Sales Development Rep,Elena Christodoulou
+Chrystalla,Petrou,Sales,Sales Operations Analyst,Elena Christodoulou
