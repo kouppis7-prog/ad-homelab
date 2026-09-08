@@ -15,13 +15,9 @@ Built in VirtualBox on an isolated network. All configuration is documented, and
 | Workstation — Finance | `WS-FIN-01` | Windows 11 Enterprise | DHCP |
 
 **Forest / Domain:** `corp.lab` (NetBIOS `CORP`)
-**Functional level:** Windows Server 2016
+**Functional level:** Windows Server 2022
 **Network:** `10.10.10.0/24`, isolated VirtualBox internal network — no route to the host LAN
 **Directory size:** 20 users across 4 departments
-
-![Network diagram](images/network-diagram.png)
-
----
 
 ## What's implemented
 
@@ -67,10 +63,6 @@ Built in VirtualBox on an isolated network. All configuration is documented, and
 └── images/                             Screenshots and diagrams
 ```
 
-All scripts support `-WhatIf` and are safe to re-run — existing objects are skipped rather than overwritten.
-
----
-
 ## OU structure
 
 ```
@@ -85,10 +77,6 @@ corp.lab
     ├── OU=ServiceAccounts
     └── OU=Disabled
 ```
-
-Rationale in [docs/01-design-decisions.md](docs/01-design-decisions.md).
-
----
 
 ## Usage
 
