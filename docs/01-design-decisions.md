@@ -98,9 +98,3 @@ NTFS inheritance is stripped (`icacls /inheritance:r`) before ACLs are applied, 
 `New-LabUsers.ps1` creates all accounts first, then resolves manager relationships in a second pass.
 
 `New-ADUser -Manager` requires the manager object to already exist. Managers can appear anywhere in the source CSV relative to their reports, and sorting the input to guarantee ordering fails as soon as the hierarchy is more than two levels deep. Two passes removes the constraint entirely.
-
-## Execution policy: `RemoteSigned`
-
-Set at `CurrentUser` scope rather than machine-wide, and `RemoteSigned` rather than `Bypass` or `Unrestricted`. Locally authored scripts run; anything carrying a mark-of-the-web must be signed or explicitly unblocked.
-
-`Bypass` would have been faster and would have removed a legitimate safety control for no good reason.
